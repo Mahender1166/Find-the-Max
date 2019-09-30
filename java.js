@@ -1,9 +1,9 @@
 function calc()
 {
-    var Value1=  parseFloat(document.getElementById("v1").value);
-    var Value2=  parseFloat(document.getElementById("v2").value);
-    var max=math.max(Value1,Value2);
-    document.getElementById("total").innerHTML=sum;
+    let box1=  parseFloat(document.getElementById("box1").value);
+    let box2=  parseFloat(document.getElementById("box2").value);
+    let max=math.max(box1,box2);
+    document.getElementById("final").innerHTML=max;
 }
 document.querySelector('#cal').addEventListener('click',calc);
  
