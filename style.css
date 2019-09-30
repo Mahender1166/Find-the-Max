@@ -1,0 +1,20 @@
+.abc
+{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.div1
+{
+    display: grid;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+body
+{
+    background-color: white;
+}
